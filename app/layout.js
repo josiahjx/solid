@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "TokenGuard - Crypto Asset Recovery",
-  description: "TokenGuard specializes in recovering lost, stolen, or inaccessible cryptocurrency. Our team of blockchain experts has helped recover over $50M in digital assets.",
+  title: "SolidBlockForensics - Crypto Asset Recovery",
+  description: "SolidBlockForensics specializes in recovering lost, stolen, or inaccessible cryptocurrency. Our team of blockchain experts has helped recover over $50M in digital assets.",
 };
 
 export default function RootLayout({ children }) {

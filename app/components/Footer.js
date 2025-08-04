@@ -36,7 +36,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li className="flex items-center">
                 <i className="fas fa-envelope mr-2 text-gray-400"></i>
-                <span className="text-gray-400">help@tokenguard.com</span>
+                <span className="text-gray-400">help@SolidBlockForensics.com</span>
               </li>
               <li className="flex items-center">
                 <i className="fas fa-phone-alt mr-2 text-gray-400"></i>
