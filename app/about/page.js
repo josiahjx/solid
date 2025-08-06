@@ -253,19 +253,31 @@ export default function AboutPage() {
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Our Journey</h2>
           <div className="relative">
-            <div className="absolute left-1/2 transform -translate-x-px h-full w-0.5 bg-blue-200"></div>
+            {/* Timeline vertical line: hide on mobile, show on md+ */}
+            <div className="hidden md:block absolute left-1/2 transform -translate-x-px h-full w-0.5 bg-blue-200"></div>
             <div className="space-y-8">
               {milestones.map((milestone, index) => (
-                <div key={index} className={`flex items-center ${index % 2 === 0 ? 'flex-row' : 'flex-row-reverse'}`}>
-                  <div className="w-1/2 px-8">
-                    <div className={`bg-white rounded-xl p-6 shadow-lg ${index % 2 === 0 ? 'text-right' : 'text-left'}`}>
+                <div
+                  key={index}
+                  className={`
+                    flex flex-col md:flex-row items-center
+                    ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'}
+                  `}
+                >
+                  <div className="w-full md:w-1/2 px-0 md:px-8 mb-4 md:mb-0">
+                    <div className={`
+                      bg-white rounded-xl p-6 shadow-lg
+                      ${index % 2 === 0 ? 'md:text-right' : 'md:text-left'}
+                      text-left
+                    `}>
                       <div className="text-2xl font-bold text-blue-600 mb-2">{milestone.year}</div>
                       <h3 className="text-xl text-gray-800 font-semibold mb-2">{milestone.title}</h3>
                       <p className="text-gray-600">{milestone.description}</p>
                     </div>
                   </div>
-                  <div className="w-4 h-4 bg-blue-600 rounded-full border-4 border-white shadow-lg"></div>
-                  <div className="w-1/2"></div>
+                  {/* Timeline dot: center on mobile, align on md+ */}
+                  <div className="w-4 h-4 bg-blue-600 rounded-full border-4 border-white shadow-lg mb-4 md:mb-0"></div>
+                  <div className="w-full md:w-1/2"></div>
                 </div>
               ))}
             </div>

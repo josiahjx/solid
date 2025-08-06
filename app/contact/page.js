@@ -40,10 +40,10 @@ export default function ContactPage() {
     try {
       // You'll need to replace these with your actual EmailJS credentials
       const result = await emailjs.sendForm(
-        'YOUR_SERVICE_ID', // Replace with your EmailJS service ID
-        'YOUR_TEMPLATE_ID', // Replace with your EmailJS template ID
+        'service_amfl2gq', // Replace with your EmailJS service ID
+        'template_zl0wi6g', // Replace with your EmailJS template ID
         formRef.current,
-        'YOUR_PUBLIC_KEY' // Replace with your EmailJS public key
+        'IhM_S6o_bYerGCwCK' // Replace with your EmailJS public key
       );
 
       if (result.status === 200) {
@@ -78,6 +78,21 @@ export default function ContactPage() {
 
         <div className="bg-white shadow-xl rounded-lg p-8">
           <form ref={formRef} onSubmit={handleSubmit} className="space-y-6">
+                {submitStatus === 'success' && (
+              <div className="bg-green-50 border border-green-200 rounded-md p-4">
+                <p className="text-green-800">
+                  Thank you! Your message has been sent successfully. We'll get back to you soon.
+                </p>
+              </div>
+            )}
+
+            {submitStatus === 'error' && (
+              <div className="bg-red-50 border border-red-200 rounded-md p-4">
+                <p className="text-red-800">
+                  Sorry, there was an error sending your message. Please try again or contact us directly.
+                </p>
+              </div>
+            )}
             {/* Name Field */}
             <div>
               <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
@@ -145,7 +160,7 @@ export default function ContactPage() {
                 onChange={handleInputChange}
                 required
                 rows={6}
-                className="w-full px-4 py-3 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors resize-none"
+                className="w-full px-4 py-3 border border-gray-300 text-gray-800 rounded-md focus:ring-2 focus:ring-blue-500 focus:border-blue-500 transition-colors resize-none"
                 placeholder="Enter your message here..."
               />
             </div>
@@ -162,21 +177,7 @@ export default function ContactPage() {
             </div>
 
             {/* Status Messages */}
-            {submitStatus === 'success' && (
-              <div className="bg-green-50 border border-green-200 rounded-md p-4">
-                <p className="text-green-800">
-                  Thank you! Your message has been sent successfully. We'll get back to you soon.
-                </p>
-              </div>
-            )}
-
-            {submitStatus === 'error' && (
-              <div className="bg-red-50 border border-red-200 rounded-md p-4">
-                <p className="text-red-800">
-                  Sorry, there was an error sending your message. Please try again or contact us directly.
-                </p>
-              </div>
-            )}
+        
           </form>
 
           {/* Additional Contact Information */}
