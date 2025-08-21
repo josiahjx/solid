@@ -106,8 +106,8 @@ export default function AboutPage() {
     },
     {
       year: "2023",
-      title: "Dubai Office",
-      description: "Expanded to Middle East with Dubai office to serve regional markets."
+      title: "US Office",
+      description: "Expanded to Middle East and Europe with US office as headquarters."
     },
     {
       year: "2024",
