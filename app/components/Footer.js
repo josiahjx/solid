@@ -44,7 +44,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <i className="fas fa-map-marker-alt mr-2 text-gray-400"></i>
-                <span className="text-gray-400">San Francisco, CA</span>
+                <span className="text-gray-400"> 4401 CLOVER DR CHARLESTON WV 25306-6757 USA</span>
               </li>
             </ul>
            

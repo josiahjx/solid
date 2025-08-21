@@ -37,45 +37,45 @@ export default function AboutPage() {
 
   const locations = [
     {
-      city: "New York",
+      city: "West Virginia",
       country: "United States",
-      address: "350 5th Avenue, Suite 2000",
-      zip: "NY 10118",
+      address: "4401 CLOVER DR CHARLESTON WV 25306-6757 ",
+      zip: "WV 4401",
       phone: "+1 (212) 555-0123",
-      email: "nyc@solidblockforensics.com",
+      email: "support@solidblockforensics.com",
       hours: "Mon-Fri: 9AM-6PM EST",
       services: ["Private Key Recovery", "Exchange Recovery", "Legal Cases"]
     },
-    {
-      city: "London",
-      country: "United Kingdom",
-      address: "30 St Mary Axe, Level 20",
-      zip: "EC3A 8BF",
-      phone: "+44 20 7123 4567",
-      email: "london@solidblockforensics.com",
-      hours: "Mon-Fri: 9AM-6PM GMT",
-      services: ["International Recovery", "Cross-border Cases", "European Operations"]
-    },
-    {
-      city: "Singapore",
-      country: "Singapore",
-      address: "50 Raffles Place, #32-01",
-      zip: "048623",
-      phone: "+65 6789 0123",
-      email: "singapore@solidblockforensics.com",
-      hours: "Mon-Fri: 9AM-6PM SGT",
-      services: ["APAC Operations", "Exchange Partnerships", "Regional Recovery"]
-    },
-    {
-      city: "Dubai",
-      country: "United Arab Emirates",
-      address: "Sheikh Zayed Road, Floor 25",
-      zip: "Dubai 00000",
-      phone: "+971 4 123 4567",
-      email: "dubai@solidblockforensics.com",
-      hours: "Sun-Thu: 9AM-6PM GST",
-      services: ["Middle East Operations", "Islamic Finance", "Regional Cases"]
-    }
+    // {
+    //   city: "London",
+    //   country: "United Kingdom",
+    //   address: "30 St Mary Axe, Level 20",
+    //   zip: "EC3A 8BF",
+    //   phone: "+44 20 7123 4567",
+    //   email: "london@solidblockforensics.com",
+    //   hours: "Mon-Fri: 9AM-6PM GMT",
+    //   services: ["International Recovery", "Cross-border Cases", "European Operations"]
+    // },
+    // {
+    //   city: "Singapore",
+    //   country: "Singapore",
+    //   address: "50 Raffles Place, #32-01",
+    //   zip: "048623",
+    //   phone: "+65 6789 0123",
+    //   email: "singapore@solidblockforensics.com",
+    //   hours: "Mon-Fri: 9AM-6PM SGT",
+    //   services: ["APAC Operations", "Exchange Partnerships", "Regional Recovery"]
+    // },
+    // {
+    //   city: "Dubai",
+    //   country: "United Arab Emirates",
+    //   address: "Sheikh Zayed Road, Floor 25",
+    //   zip: "Dubai 00000",
+    //   phone: "+971 4 123 4567",
+    //   email: "dubai@solidblockforensics.com",
+    //   hours: "Sun-Thu: 9AM-6PM GST",
+    //   services: ["Middle East Operations", "Islamic Finance", "Regional Cases"]
+    // }
   ];
 
   const milestones = [
@@ -288,7 +288,7 @@ export default function AboutPage() {
       {/* Locations */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Global Offices</h2>
+          <h2 className="text-3xl font-bold text-center text-gray-800 mb-12">Office Location</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {locations.map((location, index) => (
               <div key={index} className="bg-gray-50 rounded-xl p-6">
@@ -303,7 +303,7 @@ export default function AboutPage() {
                 </div>
                 <div className="space-y-3 text-sm">
                   <p className="text-gray-600">{location.address}</p>
-                  <p className="text-gray-600">{location.zip}</p>
+                  {/* <p className="text-gray-600">{location.zip}</p> */}
                   <p className="text-gray-600">{location.phone}</p>
                   <p className="text-gray-600">{location.email}</p>
                   <p className="text-gray-600">{location.hours}</p>
