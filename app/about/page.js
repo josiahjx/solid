@@ -52,7 +52,7 @@ export default function AboutPage() {
       address: "30 St Mary Axe, Level 20",
       zip: "EC3A 8BF",
       // phone: "+44 20 7123 4567",
-      email: "london@solidblockforensics.com",
+      // email: "london@solidblockforensics.com",
       hours: "Mon-Fri: 9AM-6PM GMT",
       services: ["International Recovery", "Cross-border Cases", "European Operations"]
     },
