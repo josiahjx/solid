@@ -6,28 +6,28 @@ import CTA from '../components/CTA';
 export default function AboutPage() {
   const teamMembers = [
     {
-      name: "Dr. Sarah Chen",
+      name: "Dr. Johnson Smith",
       position: "Chief Executive Officer",
       bio: "Former FBI cybercrime investigator with 15+ years in blockchain forensics. Led recovery of over $200M in stolen cryptocurrency assets.",
       expertise: ["Blockchain Forensics", "Cybercrime Investigation", "Digital Asset Recovery"],
       image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=400&h=400&fit=crop&crop=face"
     },
     {
-      name: "Michael Rodriguez",
+      name: "Mitch Williams",
       position: "Chief Technology Officer",
       bio: "Cryptography expert with PhD from MIT. Developed proprietary recovery algorithms used by law enforcement agencies worldwide.",
       expertise: ["Cryptography", "Algorithm Development", "Hardware Forensics"],
       image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face"
     },
     {
-      name: "Jennifer Park",
+      name: "Angelina Parker",
       position: "Head of Legal Operations",
       bio: "International law specialist with focus on digital asset inheritance and cross-border recovery cases.",
       expertise: ["International Law", "Digital Asset Law", "Inheritance Cases"],
       image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=face"
     },
     {
-      name: "David Thompson",
+      name: "David Huntaar",
       position: "Senior Recovery Specialist",
       bio: "Former NSA cryptanalyst with expertise in hardware wallet recovery and advanced forensic techniques.",
       expertise: ["Hardware Recovery", "Cryptanalysis", "Forensic Analysis"],
@@ -40,42 +40,42 @@ export default function AboutPage() {
       city: "West Virginia",
       country: "United States",
       address: "4401 CLOVER DR CHARLESTON WV 25306-6757 ",
-      zip: "WV 4401",
-      phone: "+1 (212) 555-0123",
+      // zip: "WV 4401",
+      phone: "+13048718392",
       email: "support@solidblockforensics.com",
       hours: "Mon-Fri: 9AM-6PM EST",
       services: ["Private Key Recovery", "Exchange Recovery", "Legal Cases"]
     },
-    // {
-    //   city: "London",
-    //   country: "United Kingdom",
-    //   address: "30 St Mary Axe, Level 20",
-    //   zip: "EC3A 8BF",
-    //   phone: "+44 20 7123 4567",
-    //   email: "london@solidblockforensics.com",
-    //   hours: "Mon-Fri: 9AM-6PM GMT",
-    //   services: ["International Recovery", "Cross-border Cases", "European Operations"]
-    // },
-    // {
-    //   city: "Singapore",
-    //   country: "Singapore",
-    //   address: "50 Raffles Place, #32-01",
-    //   zip: "048623",
-    //   phone: "+65 6789 0123",
-    //   email: "singapore@solidblockforensics.com",
-    //   hours: "Mon-Fri: 9AM-6PM SGT",
-    //   services: ["APAC Operations", "Exchange Partnerships", "Regional Recovery"]
-    // },
-    // {
-    //   city: "Dubai",
-    //   country: "United Arab Emirates",
-    //   address: "Sheikh Zayed Road, Floor 25",
-    //   zip: "Dubai 00000",
-    //   phone: "+971 4 123 4567",
-    //   email: "dubai@solidblockforensics.com",
-    //   hours: "Sun-Thu: 9AM-6PM GST",
-    //   services: ["Middle East Operations", "Islamic Finance", "Regional Cases"]
-    // }
+    {
+      city: "London",
+      country: "United Kingdom",
+      address: "30 St Mary Axe, Level 20",
+      zip: "EC3A 8BF",
+      // phone: "+44 20 7123 4567",
+      email: "london@solidblockforensics.com",
+      hours: "Mon-Fri: 9AM-6PM GMT",
+      services: ["International Recovery", "Cross-border Cases", "European Operations"]
+    },
+    {
+      city: "Singapore",
+      country: "Singapore",
+      address: "50 Raffles Place, #32-01",
+      zip: "048623",
+      // phone: "+65 6789 0123",
+      // email: "singapore@solidblockforensics.com",
+      hours: "Mon-Fri: 9AM-6PM SGT",
+      services: ["APAC Operations", "Exchange Partnerships", "Regional Recovery"]
+    },
+    {
+      city: "Dubai",
+      country: "United Arab Emirates",
+      address: "Sheikh Zayed Road, Floor 25",
+      zip: "Dubai 00000",
+      // phone: "+971 4 123 4567",
+      // email: "dubai@solidblockforensics.com",
+      hours: "Sun-Thu: 9AM-6PM GST",
+      services: ["Middle East Operations", "Islamic Finance", "Regional Cases"]
+    }
   ];
 
   const milestones = [

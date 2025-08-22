@@ -40,7 +40,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center">
                 <i className="fas fa-phone-alt mr-2 text-gray-400"></i>
-                <span className="text-gray-400">+1 (304) 871-8392</span>
+                <span className="text-gray-400">+1 (304) 871 8392</span>
               </li>
               <li className="flex items-center">
                 <i className="fas fa-map-marker-alt mr-2 text-gray-400"></i>
