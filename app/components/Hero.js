@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="container mx-auto px-6 flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 mb-10 md:mb-0 slide-in">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">Recover Your Lost Crypto Assets</h1>
-          <p className="text-xl mb-8 text-blue-100">SolidBlockForensics specializes in recovering lost, stolen, or inaccessible cryptocurrency. Our team of blockchain experts has helped recover over $5M in digital assets.</p>
+          <p className="text-xl mb-8 text-blue-100">CapitalNodeAnalytics specializes in recovering lost, stolen, or inaccessible cryptocurrency. Our team of blockchain experts has helped recover over $5M in digital assets.</p>
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
            <Link href="/contact" className="bg-yellow-400 text-blue-900 px-8 py-3 rounded-full font-bold hover:bg-yellow-300 transition pulse-animation">
               Start Recovery Process

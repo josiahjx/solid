@@ -193,7 +193,7 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <h4 className="font-medium text-gray-900">Email</h4>
-                <p className="text-gray-600">info@solidblock.com</p>
+                <p className="text-gray-600">info@CapitalNodeAnalytics.com</p>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-3">

@@ -7,42 +7,42 @@ export default function Testimonials() {
   const controls = useAnimation();
   const testimonials = [
     {
-      text: "After losing access to my hardware wallet with 12 BTC, I thought all was lost. SolidBlockForensics recovered every last satoshi. Their expertise is unmatched.",
+      text: "After losing access to my hardware wallet with 12 BTC, I thought all was lost. CapitalNodeAnalytics recovered every last satoshi. Their expertise is unmatched.",
       name: "Michael T.",
       location: "San Francisco, CA",
       image: "https://randomuser.me/api/portraits/men/32.jpg",
       rating: 5
     },
     {
-      text: "I sent $85,000 worth of ETH to a wrong address. SolidBlockForensics tracked it down and negotiated with the recipient to return 90% of my funds.",
+      text: "I sent $85,000 worth of ETH to a wrong address. CapitalNodeAnalytics tracked it down and negotiated with the recipient to return 90% of my funds.",
       name: "Sarah L.",
       location: "New York, NY",
       image: "https://randomuser.me/api/portraits/women/44.jpg",
       rating: 5
     },
     {
-      text: "My father passed away with crypto assets and no instructions. SolidBlockForensics helped navigate inheritance laws and recover his digital legacy.",
+      text: "My father passed away with crypto assets and no instructions. CapitalNodeAnalytics helped navigate inheritance laws and recover his digital legacy.",
       name: "David R.",
       location: "Austin, TX",
       image: "https://randomuser.me/api/portraits/men/67.jpg",
       rating: 4.5
     },
     {
-      text: "Lost my private keys in a house fire. SolidBlockForensics used advanced recovery techniques to restore access to my $250K portfolio.",
+      text: "Lost my private keys in a house fire. CapitalNodeAnalytics used advanced recovery techniques to restore access to my $250K portfolio.",
       name: "Jennifer K.",
       location: "Miami, FL",
       image: "https://randomuser.me/api/portraits/women/28.jpg",
       rating: 5
     },
     {
-      text: "Exchange froze my account with $180K. SolidBlockForensics navigated the legal process and recovered 95% of my assets.",
+      text: "Exchange froze my account with $180K. CapitalNodeAnalytics navigated the legal process and recovered 95% of my assets.",
       name: "Robert M.",
       location: "Seattle, WA",
       image: "https://randomuser.me/api/portraits/men/45.jpg",
       rating: 5
     },
     {
-      text: "Sent BTC to wrong network. SolidBlockForensics tracked the transaction and successfully recovered my funds.",
+      text: "Sent BTC to wrong network. CapitalNodeAnalytics tracked the transaction and successfully recovered my funds.",
       name: "Lisa P.",
       location: "Chicago, IL",
       image: "https://randomuser.me/api/portraits/women/33.jpg",

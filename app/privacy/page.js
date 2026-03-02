@@ -113,8 +113,8 @@ export default function PrivacyPage() {
                       <h3 className="text-xl font-semibold text-gray-900 mb-3">6. Contact Us</h3>
                       <p>
                         If you have any questions about this Privacy Policy, please contact us at{' '}
-                        <a href="mailto:privacy@solidblock.com" className="text-blue-600 hover:text-blue-800">
-                          privacy@solidblock.com
+                        <a href="mailto:privacy@CapitalNodeAnalytics.com" className="text-blue-600 hover:text-blue-800">
+                          privacy@CapitalNodeAnalytics.com
                         </a>
                       </p>
                     </section>
@@ -146,7 +146,7 @@ export default function PrivacyPage() {
 
                     <section>
                       <h3 className="text-xl font-semibold text-gray-900 mb-3">2. Use License</h3>
-                      <p className="mb-3">Permission is granted to temporarily download one copy of the materials (information or software) on SolidBlock's website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:</p>
+                      <p className="mb-3">Permission is granted to temporarily download one copy of the materials (information or software) on CapitalNodeAnalytics's website for personal, non-commercial transitory viewing only. This is the grant of a license, not a transfer of title, and under this license you may not:</p>
                       <ul className="list-disc pl-6 space-y-1">
                         <li>Modify or copy the materials</li>
                         <li>Use the materials for any commercial purpose or for any public display</li>
@@ -159,35 +159,35 @@ export default function PrivacyPage() {
                     <section>
                       <h3 className="text-xl font-semibold text-gray-900 mb-3">3. Disclaimer</h3>
                       <p>
-                        The materials on SolidBlock's website are provided on an 'as is' basis. SolidBlock makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
+                        The materials on CapitalNodeAnalytics's website are provided on an 'as is' basis. CapitalNodeAnalytics makes no warranties, expressed or implied, and hereby disclaims and negates all other warranties including without limitation, implied warranties or conditions of merchantability, fitness for a particular purpose, or non-infringement of intellectual property or other violation of rights.
                       </p>
                     </section>
 
                     <section>
                       <h3 className="text-xl font-semibold text-gray-900 mb-3">4. Limitations</h3>
                       <p>
-                        In no event shall SolidBlock or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on SolidBlock's website, even if SolidBlock or a SolidBlock authorized representative has been notified orally or in writing of the possibility of such damage.
+                        In no event shall CapitalNodeAnalytics or its suppliers be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on CapitalNodeAnalytics's website, even if CapitalNodeAnalytics or a CapitalNodeAnalytics authorized representative has been notified orally or in writing of the possibility of such damage.
                       </p>
                     </section>
 
                     <section>
                       <h3 className="text-xl font-semibold text-gray-900 mb-3">5. Accuracy of Materials</h3>
                       <p>
-                        The materials appearing on SolidBlock's website could include technical, typographical, or photographic errors. SolidBlock does not warrant that any of the materials on its website are accurate, complete, or current. SolidBlock may make changes to the materials contained on its website at any time without notice.
+                        The materials appearing on CapitalNodeAnalytics's website could include technical, typographical, or photographic errors. CapitalNodeAnalytics does not warrant that any of the materials on its website are accurate, complete, or current. CapitalNodeAnalytics may make changes to the materials contained on its website at any time without notice.
                       </p>
                     </section>
 
                     <section>
                       <h3 className="text-xl font-semibold text-gray-900 mb-3">6. Links</h3>
                       <p>
-                        SolidBlock has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by SolidBlock of the site. Use of any such linked website is at the user's own risk.
+                        CapitalNodeAnalytics has not reviewed all of the sites linked to its website and is not responsible for the contents of any such linked site. The inclusion of any link does not imply endorsement by CapitalNodeAnalytics of the site. Use of any such linked website is at the user's own risk.
                       </p>
                     </section>
 
                     <section>
                       <h3 className="text-xl font-semibold text-gray-900 mb-3">7. Modifications</h3>
                       <p>
-                        SolidBlock may revise these terms of service for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these Terms of Service.
+                        CapitalNodeAnalytics may revise these terms of service for its website at any time without notice. By using this website you are agreeing to be bound by the then current version of these Terms of Service.
                       </p>
                     </section>
 
@@ -202,8 +202,8 @@ export default function PrivacyPage() {
                       <h3 className="text-xl font-semibold text-gray-900 mb-3">9. Contact Information</h3>
                       <p>
                         If you have any questions about these Terms of Service, please contact us at{' '}
-                        <a href="mailto:legal@solidblock.com" className="text-blue-600 hover:text-blue-800">
-                          legal@solidblock.com
+                        <a href="mailto:legal@CapitalNodeAnalytics.com" className="text-blue-600 hover:text-blue-800">
+                          legal@CapitalNodeAnalytics.com
                         </a>
                       </p>
                     </section>

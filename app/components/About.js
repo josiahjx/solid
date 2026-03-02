@@ -6,8 +6,8 @@ export default function About() {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0">
-            <h2 className="text-3xl font-bold text-gray-800 mb-6">About SolidBlockForensics</h2>
-            <p className="text-gray-600 mb-6">Founded in 2018 by blockchain security experts, SolidBlockForensics has become the leading cryptocurrency recovery service with a team of 25+ specialists including cryptographers, forensic analysts, and legal experts.</p>
+            <h2 className="text-3xl font-bold text-gray-800 mb-6">About CapitalNodeAnalytics</h2>
+            <p className="text-gray-600 mb-6">Founded in 2018 by blockchain security experts, CapitalNodeAnalytics has become the leading cryptocurrency recovery service with a team of 25+ specialists including cryptographers, forensic analysts, and legal experts.</p>
             <p className="text-gray-600 mb-6">We combine cutting-edge technology with deep blockchain knowledge to solve the most challenging recovery cases while maintaining the highest standards of security and confidentiality.</p>
             <div className="flex flex-wrap gap-4">
               {skills.map((skill, index) => (

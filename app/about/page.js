@@ -42,7 +42,7 @@ export default function AboutPage() {
       address: "4401 CLOVER DR CHARLESTON WV 25306-6757 ",
       // zip: "WV 4401",
       phone: "+13048718392",
-      email: "support@solidblockforensics.com",
+      email: "support@CapitalNodeAnalytics.com",
       hours: "Mon-Fri: 9AM-6PM EST",
       services: ["Private Key Recovery", "Exchange Recovery", "Legal Cases"]
     },
@@ -52,7 +52,7 @@ export default function AboutPage() {
       address: "30 St Mary Axe, Level 20",
       zip: "EC3A 8BF",
       // phone: "+44 20 7123 4567",
-      // email: "london@solidblockforensics.com",
+      // email: "london@CapitalNodeAnalytics.com",
       hours: "Mon-Fri: 9AM-6PM GMT",
       services: ["International Recovery", "Cross-border Cases", "European Operations"]
     },
@@ -62,7 +62,7 @@ export default function AboutPage() {
       address: "50 Raffles Place, #32-01",
       zip: "048623",
       // phone: "+65 6789 0123",
-      // email: "singapore@solidblockforensics.com",
+      // email: "singapore@CapitalNodeAnalytics.com",
       hours: "Mon-Fri: 9AM-6PM SGT",
       services: ["APAC Operations", "Exchange Partnerships", "Regional Recovery"]
     },
@@ -72,7 +72,7 @@ export default function AboutPage() {
       address: "Sheikh Zayed Road, Floor 25",
       zip: "Dubai 00000",
       // phone: "+971 4 123 4567",
-      // email: "dubai@solidblockforensics.com",
+      // email: "dubai@CapitalNodeAnalytics.com",
       hours: "Sun-Thu: 9AM-6PM GST",
       services: ["Middle East Operations", "Islamic Finance", "Regional Cases"]
     }
@@ -82,7 +82,7 @@ export default function AboutPage() {
     {
       year: "2018",
       title: "Company Founded",
-      description: "SolidBlockForensics established by former law enforcement and cybersecurity experts."
+      description: "CapitalNodeAnalytics established by former law enforcement and cybersecurity experts."
     },
     {
       year: "2019",
@@ -162,7 +162,7 @@ export default function AboutPage() {
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Our Story</h2>
               <p className="text-lg text-gray-600 mb-6">
                 Founded in 2018 by former law enforcement and cybersecurity experts, 
-                SolidBlockForensics has become the world's premier cryptocurrency recovery firm. 
+                CapitalNodeAnalytics has become the world's premier cryptocurrency recovery firm. 
                 Our team combines decades of experience in blockchain forensics, cryptography, 
                 and cybercrime investigation.
               </p>
