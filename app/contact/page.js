@@ -193,7 +193,7 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <h4 className="font-medium text-gray-900">Email</h4>
-                <p className="text-gray-600">info@CapitalNodeAnalytics.com</p>
+                <p className="text-gray-600">support@CapitalNodeAnalytics.com</p>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-3">
@@ -202,7 +202,7 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <h4 className="font-medium text-gray-900">Phone</h4>
-                <p className="text-gray-600">+1 (555) 123-4567</p>
+                <p className="text-gray-600">+1 (304) 871 8392</p>
               </div>
               <div className="text-center">
                 <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mx-auto mb-3">
@@ -212,7 +212,8 @@ export default function ContactPage() {
                   </svg>
                 </div>
                 <h4 className="font-medium text-gray-900">Address</h4>
-                <p className="text-gray-600">123 Business St, City, State 12345</p>
+                <p className="text-gray-600">4401 CLOVER DR CHARLESTON WV 
+25306-6757 USA.</p>
               </div>
             </div>
           </div>
